@@ -1,0 +1,42 @@
+header {
+    height: 56px;
+    font-family: 16px;
+    font-weight: $font-weight-semibold;
+    background-color: $blue-bg;
+    .vickys-nav {
+        height: 56px;
+        margin: 0 auto;
+        padding: 0;
+        text-transform: uppercase;
+        a:hover {
+            color: $pink;
+            text-decoration: none;
+            background-color: $blue-bg;
+        }
+        .total-quantity {
+            color: $primary-color;
+            margin-top: 17px;
+        }
+    }
+    .logo {
+        margin: 7.5px 0 0 15px;
+    }
+    .header-links {
+        margin-top: 4px;
+    }
+    .total {
+        color: $white;
+        margin-top: 15px;
+    }
+    .cart {
+        background: url("../assets/cart.png") no-repeat center;
+        color: $primary-color;
+        margin: 10px 0;
+        width: 32px;
+        height: 30px;
+        .total-quantity {
+            margin-top: -12px;
+            margin-left: -2px;
+        }
+    }
+}

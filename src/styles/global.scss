@@ -1,8 +1,6 @@
 @import 'variables';
 @import 'header';
 @import 'footer';
-
-//global sharing styles
 body {
     color: $primary-color;
     font-family: $font-stack;
@@ -19,86 +17,3 @@ a:hover {
     color: $pink;
     text-decoration: none;
 }
-
-header,
-footer {
-    background-color: $blue-bg;
-}
-
-//header and footer sections can be in their own files as they grow bigger
-header {
-    height: 56px;
-    font-family: 16px;
-    font-weight: $font-weight-semibold;
-    .vickys-nav {
-        height: 56px;
-        margin: 0 auto;
-        padding: 0;
-        text-transform: uppercase;
-
-        a:hover {
-            color: $pink;
-            text-decoration: none;
-            background-color: $blue-bg;
-        }
-        .total-quantity {
-            color: $primary-color;
-            margin-top: 17px;
-        }
-    }
-    .logo {
-        margin: 7.5px 0 0 15px;
-    }
-    .header-links {
-        margin-top: 4px;
-    }
-    .total {
-        color: $white;
-        margin-top: 15px;
-    }
-    .cart {
-        background: url("../assets/cart.png") no-repeat center;
-        color: $primary-color;
-        margin: 10px 0;
-        width: 32px;
-        height: 30px;
-        .total-quantity {
-            margin-top: -12px;
-            margin-left: -2px;
-        }
-    }
-}
-
-footer {
-    height: 259px;
-    padding: 46px 80px 0px;
-    .footer-title,
-    h5 {
-        color: $pink;
-        text-transform: uppercase;
-        font-weight: $font-weight-heavy;
-        font-size: 16px;
-    }
-
-    .footer-category {
-        display: inline-block;
-        width: 30%;
-        text-align: center;
-        padding: 0 10px;
-        ul {
-            padding: 0;
-            margin: 0;
-            list-style: none;
-        }
-        a {
-            font-size: $font-size-small;
-        }
-        li {
-            line-height: 31px;
-        }
-        h5 {
-            text-transform: uppercase;
-        }
-    }
-}
-
