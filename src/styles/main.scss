@@ -1,0 +1,37 @@
+@import 'global';
+.container {
+    max-width: $page-width; //**
+}
+
+.main-body {
+    min-height: 578px;
+    background-color: $pinkish-grey;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.top-products {
+    margin: 15px auto;
+    h2 {
+        color: $pink;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .product-item {
+        display: inline-block;
+        text-align: center;
+        margin-right: 15px;
+        .img-container {
+            margin: 36px 0;
+        }
+        .price {
+            margin: 10px 0;
+            color: $pink;
+        }
+        .quantity {
+            width: 75.6px;
+            height: 30px;
+            border: solid 1px $blue;
+        }
+    }
+}
